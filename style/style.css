@@ -1,0 +1,205 @@
+html {
+  background: #dadae8;
+}
+
+body {
+  border-radius: 20px 20px 0 0;
+  min-height: 100vh;
+}
+
+.wrapper .wrapper-holder {
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+
+.wrapper .wrapper-holder header {
+  border-radius: 20px 20px 0 0;
+  padding: 40px 0 30px 0;
+  background-color: #fff;
+  line-height: 1;
+}
+
+.wrapper .wrapper-holder header .row {
+  font-size: 15px;
+}
+
+.wrapper .wrapper-holder header .row .title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: capitalize;
+  word-spacing: -2px;
+  line-height: 1;
+}
+
+.wrapper .wrapper-holder header .row .list {
+  float: right;
+  color: #ccc;
+}
+
+.wrapper .wrapper-holder main {
+  background: #f4f4f4c4;
+  padding: 20px 0 0;
+  border-radius: 30px;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper {
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 10px 0;
+  background-color: #fff;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product {
+  padding-left: 10px;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product .product-details .product-img {
+  position: relative;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product .product-details .product-img::before {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #dfbc20;
+  -webkit-box-shadow: 8px 18px 14px -8px #c4c4c4;
+          box-shadow: 8px 18px 14px -8px #c4c4c4;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product .product-details .product-img img {
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  margin-left: 10px;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product .product-details .product-name-price {
+  color: #4c4cbd;
+  padding-top: 10px;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product .product-details .product-name-price .product-name {
+  font-weight: 500;
+  margin-bottom: 5px !important;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product .product-details .product-name-price .product-price {
+  font-size: 17px;
+  font-weight: 640;
+  word-spacing: -3px;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product .product-details .product-name-price .product-price sup {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product-amount .product-amount-details {
+  line-height: 2;
+  float: right;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product-amount .product-amount-details .reduce-amount i {
+  -webkit-box-shadow: 1px 1px 4px 0px #d8d8d8;
+          box-shadow: 1px 1px 4px 0px #d8d8d8;
+  border-radius: 50%;
+  padding: 4px 5px;
+  color: #615f5f;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product-amount .product-amount-details .amount-number {
+  text-align: center;
+  font-weight: 500;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product-amount .product-amount-details .add-amount {
+  line-height: 1;
+}
+
+.wrapper .wrapper-holder main .products .product-wrapper .product-amount .product-amount-details .add-amount i {
+  -webkit-box-shadow: 1px 1px 4px 0px #dedede;
+          box-shadow: 1px 1px 4px 0px #dedede;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #9bcce6;
+  font-size: 10px;
+  line-height: 1;
+}
+
+.wrapper .wrapper-holder main .products .product-even .product-details .product-img::before {
+  background-color: #4685b7ba !important;
+}
+
+.wrapper .wrapper-holder main .total {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.wrapper .wrapper-holder main .total p {
+  color: #b5b5b5;
+  font-weight: 500;
+}
+
+.wrapper .wrapper-holder main .total p span {
+  color: #333;
+  font-weight: bold;
+  padding-left: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper .wrapper-holder main footer {
+  padding: 7% 0;
+  border-radius: 20px;
+  background: #fff;
+  position: relative;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.wrapper .wrapper-holder main footer::after {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  width: 28%;
+  height: 2.5px;
+  left: 50%;
+  background-color: #c0c0c0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.wrapper .wrapper-holder main footer .final-price {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.wrapper .wrapper-holder main footer .final-price h3 {
+  font-weight: 650;
+}
+
+.wrapper .wrapper-holder main footer .final-price .up-price {
+  font-size: 20px;
+  letter-spacing: -5px;
+  font-weight: bold;
+}
+
+.wrapper .wrapper-holder main footer .check-out {
+  float: right;
+  background-color: #4b2c9e;
+  padding: 7px 17px;
+  border-radius: 20px;
+  color: #aedee6;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-box-shadow: -3px 4px 18px -4px #7d7d7d;
+          box-shadow: -3px 4px 18px -4px #7d7d7d;
+}
+/*# sourceMappingURL=style.css.map */
